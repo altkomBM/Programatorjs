@@ -1,0 +1,19 @@
+{
+  "name": "programatorjs",
+  "version": "1.0.0",
+  "description": "programator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "author": "Bartosz.Moszczynski",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.5",
+    "eslint": "^6.7.2"
+  }
+}
