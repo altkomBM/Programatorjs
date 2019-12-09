@@ -1,10 +1,14 @@
+function switchStat() {
 
-function testTypes() {
+    let temp = 20;
+    let coldThreshold = 15;
 
-    let booleanValue = true;
-    let age = 50;
-    let name = "Jan";
-
-    console.log(name.length);
+    switch (true) {
+        case temp >= coldThreshold:
+            console.log("Za oknem jest ciepło");
+            break;
+        default :
+            console.log("Za oknem jest zimno");
+    }
 
 }

@@ -1,10 +1,17 @@
 
-function testTypes() {
+function operatory11() {
 
-    let booleanValue = true;
-    let age = 50;
-    let name = "Jan";
+    let a = 2;
+    let b = 3;
+    let c = 6;
 
-    console.log(name.length);
+    let dyst = 300;
+    let fuel = 21;
+
+    console.log("Pole: " + a * b);
+    console.log("Srednia: " + (a + b + c) / 3);
+    console.log("Spalanie: " + 21 / 3);
+
+
 
 }

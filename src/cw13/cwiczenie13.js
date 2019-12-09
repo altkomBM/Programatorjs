@@ -1,10 +1,13 @@
 
-function testTypes() {
+function ifStat() {
 
-    let booleanValue = true;
-    let age = 50;
-    let name = "Jan";
+    let temp = 20;
+    let coldThreshold = 15;
 
-    console.log(name.length);
+    if (temp >= coldThreshold) {
+        console.log("Za oknem jest ciepło");
+    } else {
+        console.log("Za oknem jest zimno");
+    }
 
 }
