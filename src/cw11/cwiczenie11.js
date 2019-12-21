@@ -5,6 +5,7 @@ function operatory11() {
     let b = 3;
     let c = 6;
     let d = 5;
+    //komentarz 1
 
     let dyst = 300;
     let fuel = 21;
