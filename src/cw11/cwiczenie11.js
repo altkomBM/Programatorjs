@@ -4,6 +4,7 @@ function operatory11() {
     let a = 2;
     let b = 3;
     let c = 6;
+    let d = 5;
 
     let dyst = 300;
     let fuel = 21;
