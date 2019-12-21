@@ -5,8 +5,6 @@ function ifStat() {
     let hotThreshold = 25;
     let coldThreshold = 15;
 
-    //dasfasas
-
     if (temp >= hotThreshold) {
         console.log("Za oknem jest bardzo ciepło");
     } else if (temp >= coldThreshold) {
@@ -14,7 +12,5 @@ function ifStat() {
     } else {
         console.log("Za oknem jest zimno");
     }
-
-    // fasdsafdasf
 
 }
