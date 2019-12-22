@@ -13,6 +13,4 @@ function operatory11() {
     console.log("Srednia: " + (a + b + c) / 3);
     console.log("Spalanie: " + 21 / 3);
 
-
-
 }
