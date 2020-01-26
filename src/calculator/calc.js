@@ -103,3 +103,16 @@ keys.addEventListener('click', (event) => {
     inputDigit(target.value);
     updateDisplay();
 });
+
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+
+    let checkVal = parseInt(e.key);
+
+    if (checkVal >= 0 && checkVal < 10) {
+        inputDigit(e.key);
+        updateDisplay();
+    }
+
+}
